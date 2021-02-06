@@ -2,3 +2,6 @@
 fieldset {
     border: none;
 }
+.todos {
+    list-style-type: none;
+}
