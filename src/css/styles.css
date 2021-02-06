@@ -1,7 +1,16 @@
 /* Your styles */
+body {
+    font-family: Arial, "sans-serif";
+}
 fieldset {
     border: none;
 }
 .todos {
     list-style-type: none;
+}
+.input-non-valid {
+    background-color: palevioletred;
+}
+.input-valid {
+    background-color: darkseagreen;
 }
