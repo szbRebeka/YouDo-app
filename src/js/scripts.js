@@ -39,14 +39,15 @@ youDoList.addEventListener("click", event => {
 // Validating the input
 
 youDoFrom.newinput.addEventListener("keyup", e => {
-    console.log("keyup", e.target.value);
     if (e.target.value.length >= 6) {
         e.target.classList.add("input-valid");
         e.target.classList.remove("input-non-valid");
+        //Restricting submissions
+        youDoFrom.submit.disabled = false;
     } else {
         e.target.classList.add("input-non-valid");
         e.target.classList.remove("input-valid");
     }
 });
-//Restricting submissions
+
 
