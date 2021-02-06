@@ -1,1 +1,4 @@
 /* Your styles */
+fieldset {
+    border: none;
+}
